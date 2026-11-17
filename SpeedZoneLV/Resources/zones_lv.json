@@ -1,0 +1,1634 @@
+{
+    "schemaVersion":  1,
+    "countryCode":  "LV",
+    "updatedAt":  "2026-11-14",
+    "disclaimer":  "Iebūvēti publiski uzskaitītie Latvijas vidējā ātruma kontroles posmi abos braukšanas virzienos. Robežas balstītas uz Valsts policijas/LVC publicētajiem km diapazoniem, koordinātas uz LVC piketāžas servisu. GPS rezultāti ir informatīvi, nevis oficiāls mērījums.",
+    "sources":  [
+                    {
+                        "name":  "Valsts policija — Ceļu satiksme",
+                        "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                        "license":  "Publiska informācija",
+                        "retrievedAt":  "2026-11-14"
+                    },
+                    {
+                        "name":  "LVC piketāžas serviss",
+                        "url":  "https://gis.environment.lv/server/rest/services/Hosted/LVC_piketaza_2026/FeatureServer/2",
+                        "license":  "Publiska GIS informācija",
+                        "retrievedAt":  "2026-11-14"
+                    }
+                ],
+    "zones":  [
+                  {
+                      "id":  "lv-a1-14-1-20-1-forward",
+                      "name":  "Siguļi–Lilaste",
+                      "road":  "A1",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  57.131668,
+                                    "longitude":  24.332082
+                                },
+                      "end":  {
+                                  "latitude":  57.18398,
+                                  "longitude":  24.344422
+                              },
+                      "officialLengthMeters":  6000,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a1-14-1-20-1-reverse",
+                      "name":  "Siguļi–Lilaste",
+                      "road":  "A1",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  57.131668,
+                                    "longitude":  24.332082
+                                },
+                      "end":  {
+                                  "latitude":  57.18398,
+                                  "longitude":  24.344422
+                              },
+                      "officialLengthMeters":  6000,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a1-74-6-81-1-forward",
+                      "name":  "Vitrupe–Svētciems",
+                      "road":  "A1",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  57.640583,
+                                    "longitude":  24.376148
+                                },
+                      "end":  {
+                                  "latitude":  57.697724,
+                                  "longitude":  24.374634
+                              },
+                      "officialLengthMeters":  6500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a1-74-6-81-1-reverse",
+                      "name":  "Vitrupe–Svētciems",
+                      "road":  "A1",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  57.640583,
+                                    "longitude":  24.376148
+                                },
+                      "end":  {
+                                  "latitude":  57.697724,
+                                  "longitude":  24.374634
+                              },
+                      "officialLengthMeters":  6500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a2-54-5-62-3-forward",
+                      "name":  "A2 54,5–62,3 km",
+                      "road":  "A2",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  57.155402,
+                                    "longitude":  24.905262
+                                },
+                      "end":  {
+                                  "latitude":  57.181851,
+                                  "longitude":  25.018593
+                              },
+                      "officialLengthMeters":  7800,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a2-54-5-62-3-reverse",
+                      "name":  "A2 54,5–62,3 km",
+                      "road":  "A2",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  57.155402,
+                                    "longitude":  24.905262
+                                },
+                      "end":  {
+                                  "latitude":  57.181851,
+                                  "longitude":  25.018593
+                              },
+                      "officialLengthMeters":  7800,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a2-72-5-77-2-forward",
+                      "name":  "A2 72,5–77,2 km",
+                      "road":  "A2",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  57.210939,
+                                    "longitude":  25.175653
+                                },
+                      "end":  {
+                                  "latitude":  57.225382,
+                                  "longitude":  25.246903
+                              },
+                      "officialLengthMeters":  4700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a2-72-5-77-2-reverse",
+                      "name":  "A2 72,5–77,2 km",
+                      "road":  "A2",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  57.210939,
+                                    "longitude":  25.175653
+                                },
+                      "end":  {
+                                  "latitude":  57.225382,
+                                  "longitude":  25.246903
+                              },
+                      "officialLengthMeters":  4700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a2-94-8-125-7-forward",
+                      "name":  "A2 94,8–125,7 km",
+                      "road":  "A2",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  57.282267,
+                                    "longitude":  25.505091
+                                },
+                      "end":  {
+                                  "latitude":  57.385505,
+                                  "longitude":  25.963647
+                              },
+                      "officialLengthMeters":  30900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a2-94-8-125-7-reverse",
+                      "name":  "A2 94,8–125,7 km",
+                      "road":  "A2",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  57.282267,
+                                    "longitude":  25.505091
+                                },
+                      "end":  {
+                                  "latitude":  57.385505,
+                                  "longitude":  25.963647
+                              },
+                      "officialLengthMeters":  30900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a3-40-1-55-6-forward",
+                      "name":  "Stalbe–Rubene",
+                      "road":  "A3",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  57.377128,
+                                    "longitude":  25.044665
+                                },
+                      "end":  {
+                                  "latitude":  57.459894,
+                                  "longitude":  25.245739
+                              },
+                      "officialLengthMeters":  15500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a3-40-1-55-6-reverse",
+                      "name":  "Stalbe–Rubene",
+                      "road":  "A3",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  57.377128,
+                                    "longitude":  25.044665
+                                },
+                      "end":  {
+                                  "latitude":  57.459894,
+                                  "longitude":  25.245739
+                              },
+                      "officialLengthMeters":  15500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a4-10-1-13-9-forward",
+                      "name":  "A4 10,1–13,9 km",
+                      "road":  "A4",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.936127,
+                                    "longitude":  24.385952
+                                },
+                      "end":  {
+                                  "latitude":  56.904162,
+                                  "longitude":  24.406182
+                              },
+                      "officialLengthMeters":  3800,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a4-10-1-13-9-reverse",
+                      "name":  "A4 10,1–13,9 km",
+                      "road":  "A4",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.936127,
+                                    "longitude":  24.385952
+                                },
+                      "end":  {
+                                  "latitude":  56.904162,
+                                  "longitude":  24.406182
+                              },
+                      "officialLengthMeters":  3800,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a4-14-5-19-9-forward",
+                      "name":  "A4 14,5–19,9 km",
+                      "road":  "A4",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.8988,
+                                    "longitude":  24.406754
+                                },
+                      "end":  {
+                                  "latitude":  56.850878,
+                                  "longitude":  24.399202
+                              },
+                      "officialLengthMeters":  5400,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a4-14-5-19-9-reverse",
+                      "name":  "A4 14,5–19,9 km",
+                      "road":  "A4",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.8988,
+                                    "longitude":  24.406754
+                                },
+                      "end":  {
+                                  "latitude":  56.850878,
+                                  "longitude":  24.399202
+                              },
+                      "officialLengthMeters":  5400,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a5-14-2-20-1-forward",
+                      "name":  "A5 14,2–20,1 km",
+                      "road":  "A5",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.812345,
+                                    "longitude":  24.156643
+                                },
+                      "end":  {
+                                  "latitude":  56.826006,
+                                  "longitude":  24.063372
+                              },
+                      "officialLengthMeters":  5900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a5-14-2-20-1-reverse",
+                      "name":  "A5 14,2–20,1 km",
+                      "road":  "A5",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.812345,
+                                    "longitude":  24.156643
+                                },
+                      "end":  {
+                                  "latitude":  56.826006,
+                                  "longitude":  24.063372
+                              },
+                      "officialLengthMeters":  5900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a5-23-1-28-6-forward",
+                      "name":  "A5 23,1–28,6 km",
+                      "road":  "A5",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.841416,
+                                    "longitude":  24.023221
+                                },
+                      "end":  {
+                                  "latitude":  56.875089,
+                                  "longitude":  23.957768
+                              },
+                      "officialLengthMeters":  5500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a5-23-1-28-6-reverse",
+                      "name":  "A5 23,1–28,6 km",
+                      "road":  "A5",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.841416,
+                                    "longitude":  24.023221
+                                },
+                      "end":  {
+                                  "latitude":  56.875089,
+                                  "longitude":  23.957768
+                              },
+                      "officialLengthMeters":  5500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a6-66-1-77-forward",
+                      "name":  "A6 66,1–77,0 km",
+                      "road":  "A6",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.639678,
+                                    "longitude":  24.920644
+                                },
+                      "end":  {
+                                  "latitude":  56.623283,
+                                  "longitude":  25.074658
+                              },
+                      "officialLengthMeters":  10900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a6-66-1-77-reverse",
+                      "name":  "A6 66,1–77,0 km",
+                      "road":  "A6",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.639678,
+                                    "longitude":  24.920644
+                                },
+                      "end":  {
+                                  "latitude":  56.623283,
+                                  "longitude":  25.074658
+                              },
+                      "officialLengthMeters":  10900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a6-102-4-116-forward",
+                      "name":  "A6 102,4–116,0 km",
+                      "road":  "A6",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.634853,
+                                    "longitude":  25.454481
+                                },
+                      "end":  {
+                                  "latitude":  56.596507,
+                                  "longitude":  25.641744
+                              },
+                      "officialLengthMeters":  13600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a6-102-4-116-reverse",
+                      "name":  "A6 102,4–116,0 km",
+                      "road":  "A6",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.634853,
+                                    "longitude":  25.454481
+                                },
+                      "end":  {
+                                  "latitude":  56.596507,
+                                  "longitude":  25.641744
+                              },
+                      "officialLengthMeters":  13600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a6-150-2-159-7-forward",
+                      "name":  "A6 150,2–159,7 km",
+                      "road":  "A6",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.489712,
+                                    "longitude":  25.917831
+                                },
+                      "end":  {
+                                  "latitude":  56.456775,
+                                  "longitude":  26.04932
+                              },
+                      "officialLengthMeters":  9500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a6-150-2-159-7-reverse",
+                      "name":  "A6 150,2–159,7 km",
+                      "road":  "A6",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.489712,
+                                    "longitude":  25.917831
+                                },
+                      "end":  {
+                                  "latitude":  56.456775,
+                                  "longitude":  26.04932
+                              },
+                      "officialLengthMeters":  9500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a6-133-5-139-2-forward",
+                      "name":  "A6 133,5–139,2 km",
+                      "road":  "A6",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.599527,
+                                    "longitude":  25.781144
+                                },
+                      "end":  {
+                                  "latitude":  56.553161,
+                                  "longitude":  25.79446
+                              },
+                      "officialLengthMeters":  5700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a6-133-5-139-2-reverse",
+                      "name":  "A6 133,5–139,2 km",
+                      "road":  "A6",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.599527,
+                                    "longitude":  25.781144
+                                },
+                      "end":  {
+                                  "latitude":  56.553161,
+                                  "longitude":  25.79446
+                              },
+                      "officialLengthMeters":  5700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a7-25-3-40-forward",
+                      "name":  "A7 25,3–40,0 km",
+                      "road":  "A7",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.76017,
+                                    "longitude":  24.246546
+                                },
+                      "end":  {
+                                  "latitude":  56.630191,
+                                  "longitude":  24.222409
+                              },
+                      "officialLengthMeters":  14700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a7-25-3-40-reverse",
+                      "name":  "A7 25,3–40,0 km",
+                      "road":  "A7",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.76017,
+                                    "longitude":  24.246546
+                                },
+                      "end":  {
+                                  "latitude":  56.630191,
+                                  "longitude":  24.222409
+                              },
+                      "officialLengthMeters":  14700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a8-50-69-2-forward",
+                      "name":  "A8 50,0–69,2 km",
+                      "road":  "A8",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.598482,
+                                    "longitude":  23.719291
+                                },
+                      "end":  {
+                                  "latitude":  56.42714,
+                                  "longitude":  23.685568
+                              },
+                      "officialLengthMeters":  19200,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a8-50-69-2-reverse",
+                      "name":  "A8 50,0–69,2 km",
+                      "road":  "A8",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.598482,
+                                    "longitude":  23.719291
+                                },
+                      "end":  {
+                                  "latitude":  56.42714,
+                                  "longitude":  23.685568
+                              },
+                      "officialLengthMeters":  19200,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-9-9-23-1-forward",
+                      "name":  "A9 9,9–23,1 km",
+                      "road":  "A9",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.904988,
+                                    "longitude":  23.762654
+                                },
+                      "end":  {
+                                  "latitude":  56.844387,
+                                  "longitude":  23.590452
+                              },
+                      "officialLengthMeters":  13200,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-9-9-23-1-reverse",
+                      "name":  "A9 9,9–23,1 km",
+                      "road":  "A9",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.904988,
+                                    "longitude":  23.762654
+                                },
+                      "end":  {
+                                  "latitude":  56.844387,
+                                  "longitude":  23.590452
+                              },
+                      "officialLengthMeters":  13200,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-26-1-38-forward",
+                      "name":  "A9 26,1–38,0 km",
+                      "road":  "A9",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.830614,
+                                    "longitude":  23.550253
+                                },
+                      "end":  {
+                                  "latitude":  56.782526,
+                                  "longitude":  23.378046
+                              },
+                      "officialLengthMeters":  11900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-26-1-38-reverse",
+                      "name":  "A9 26,1–38,0 km",
+                      "road":  "A9",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.830614,
+                                    "longitude":  23.550253
+                                },
+                      "end":  {
+                                  "latitude":  56.782526,
+                                  "longitude":  23.378046
+                              },
+                      "officialLengthMeters":  11900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-39-1-56-7-forward",
+                      "name":  "Apšupe–Tiltiņi",
+                      "road":  "A9",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.778603,
+                                    "longitude":  23.364667
+                                },
+                      "end":  {
+                                  "latitude":  56.692378,
+                                  "longitude":  23.130627
+                              },
+                      "officialLengthMeters":  17600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-39-1-56-7-reverse",
+                      "name":  "Apšupe–Tiltiņi",
+                      "road":  "A9",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.778603,
+                                    "longitude":  23.364667
+                                },
+                      "end":  {
+                                  "latitude":  56.692378,
+                                  "longitude":  23.130627
+                              },
+                      "officialLengthMeters":  17600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-80-93-6-forward",
+                      "name":  "A9 80,0–93,6 km",
+                      "road":  "A9",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.646721,
+                                    "longitude":  22.781113
+                                },
+                      "end":  {
+                                  "latitude":  56.676722,
+                                  "longitude":  22.579697
+                              },
+                      "officialLengthMeters":  13600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-80-93-6-reverse",
+                      "name":  "A9 80,0–93,6 km",
+                      "road":  "A9",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.646721,
+                                    "longitude":  22.781113
+                                },
+                      "end":  {
+                                  "latitude":  56.676722,
+                                  "longitude":  22.579697
+                              },
+                      "officialLengthMeters":  13600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-157-3-169-7-forward",
+                      "name":  "A9 157,3–169,7 km",
+                      "road":  "A9",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.59052,
+                                    "longitude":  21.616756
+                                },
+                      "end":  {
+                                  "latitude":  56.589532,
+                                  "longitude":  21.419889
+                              },
+                      "officialLengthMeters":  12400,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a9-157-3-169-7-reverse",
+                      "name":  "A9 157,3–169,7 km",
+                      "road":  "A9",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.59052,
+                                    "longitude":  21.616756
+                                },
+                      "end":  {
+                                  "latitude":  56.589532,
+                                  "longitude":  21.419889
+                              },
+                      "officialLengthMeters":  12400,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a10-24-1-30-8-forward",
+                      "name":  "A10 24,1–30,8 km",
+                      "road":  "A10",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.952427,
+                                    "longitude":  23.810808
+                                },
+                      "end":  {
+                                  "latitude":  56.93261,
+                                  "longitude":  23.706986
+                              },
+                      "officialLengthMeters":  6700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a10-24-1-30-8-reverse",
+                      "name":  "A10 24,1–30,8 km",
+                      "road":  "A10",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.952427,
+                                    "longitude":  23.810808
+                                },
+                      "end":  {
+                                  "latitude":  56.93261,
+                                  "longitude":  23.706986
+                              },
+                      "officialLengthMeters":  6700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a10-44-9-52-4-forward",
+                      "name":  "A10 44,9–52,4 km",
+                      "road":  "A10",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.932739,
+                                    "longitude":  23.482526
+                                },
+                      "end":  {
+                                  "latitude":  56.913654,
+                                  "longitude":  23.364927
+                              },
+                      "officialLengthMeters":  7500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a10-44-9-52-4-reverse",
+                      "name":  "A10 44,9–52,4 km",
+                      "road":  "A10",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.932739,
+                                    "longitude":  23.482526
+                                },
+                      "end":  {
+                                  "latitude":  56.913654,
+                                  "longitude":  23.364927
+                              },
+                      "officialLengthMeters":  7500,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a10-63-4-68-forward",
+                      "name":  "Tukuma rotācijas apļi",
+                      "road":  "A10",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.934796,
+                                    "longitude":  23.192244
+                                },
+                      "end":  {
+                                  "latitude":  56.948391,
+                                  "longitude":  23.120959
+                              },
+                      "officialLengthMeters":  4600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a10-63-4-68-reverse",
+                      "name":  "Tukuma rotācijas apļi",
+                      "road":  "A10",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.934796,
+                                    "longitude":  23.192244
+                                },
+                      "end":  {
+                                  "latitude":  56.948391,
+                                  "longitude":  23.120959
+                              },
+                      "officialLengthMeters":  4600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a10-135-140-8-forward",
+                      "name":  "A10 135,0–140,8 km",
+                      "road":  "A10",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  57.22021,
+                                    "longitude":  22.247626
+                                },
+                      "end":  {
+                                  "latitude":  57.246854,
+                                  "longitude":  22.175168
+                              },
+                      "officialLengthMeters":  5800,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a10-135-140-8-reverse",
+                      "name":  "A10 135,0–140,8 km",
+                      "road":  "A10",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  57.22021,
+                                    "longitude":  22.247626
+                                },
+                      "end":  {
+                                  "latitude":  57.246854,
+                                  "longitude":  22.175168
+                              },
+                      "officialLengthMeters":  5800,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a12-61-4-69-forward",
+                      "name":  "A12 61,4–69,0 km",
+                      "road":  "A12",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.606161,
+                                    "longitude":  26.782425
+                                },
+                      "end":  {
+                                  "latitude":  56.587819,
+                                  "longitude":  26.884865
+                              },
+                      "officialLengthMeters":  7600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a12-61-4-69-reverse",
+                      "name":  "A12 61,4–69,0 km",
+                      "road":  "A12",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.606161,
+                                    "longitude":  26.782425
+                                },
+                      "end":  {
+                                  "latitude":  56.587819,
+                                  "longitude":  26.884865
+                              },
+                      "officialLengthMeters":  7600,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a12-106-3-108-1-forward",
+                      "name":  "A12 106,3–108,1 km",
+                      "road":  "A12",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.514339,
+                                    "longitude":  27.424253
+                                },
+                      "end":  {
+                                  "latitude":  56.511108,
+                                  "longitude":  27.450897
+                              },
+                      "officialLengthMeters":  1800,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a12-106-3-108-1-reverse",
+                      "name":  "A12 106,3–108,1 km",
+                      "road":  "A12",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.514339,
+                                    "longitude":  27.424253
+                                },
+                      "end":  {
+                                  "latitude":  56.511108,
+                                  "longitude":  27.450897
+                              },
+                      "officialLengthMeters":  1800,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a13-81-8-88-5-forward",
+                      "name":  "A13 81,8–88,5 km",
+                      "road":  "A13",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.276418,
+                                    "longitude":  27.074309
+                                },
+                      "end":  {
+                                  "latitude":  56.222829,
+                                  "longitude":  27.021225
+                              },
+                      "officialLengthMeters":  6700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-a13-81-8-88-5-reverse",
+                      "name":  "A13 81,8–88,5 km",
+                      "road":  "A13",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.276418,
+                                    "longitude":  27.074309
+                                },
+                      "end":  {
+                                  "latitude":  56.222829,
+                                  "longitude":  27.021225
+                              },
+                      "officialLengthMeters":  6700,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-p80-0-5-1-8-forward",
+                      "name":  "Tīnūži–Ziediņi",
+                      "road":  "P80",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.858872,
+                                    "longitude":  24.57313
+                                },
+                      "end":  {
+                                  "latitude":  56.856926,
+                                  "longitude":  24.593204
+                              },
+                      "officialLengthMeters":  1300,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-p80-0-5-1-8-reverse",
+                      "name":  "Tīnūži–Ziediņi",
+                      "road":  "P80",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.858872,
+                                    "longitude":  24.57313
+                                },
+                      "end":  {
+                                  "latitude":  56.856926,
+                                  "longitude":  24.593204
+                              },
+                      "officialLengthMeters":  1300,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-p80-40-9-60-1-forward",
+                      "name":  "P80 40,9–60,1 km",
+                      "road":  "P80",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  56.729389,
+                                    "longitude":  25.165711
+                                },
+                      "end":  {
+                                  "latitude":  56.666873,
+                                  "longitude":  25.447512
+                              },
+                      "officialLengthMeters":  19200,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-p80-40-9-60-1-reverse",
+                      "name":  "P80 40,9–60,1 km",
+                      "road":  "P80",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  56.729389,
+                                    "longitude":  25.165711
+                                },
+                      "end":  {
+                                  "latitude":  56.666873,
+                                  "longitude":  25.447512
+                              },
+                      "officialLengthMeters":  19200,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-p30-22-1-29-forward",
+                      "name":  "P30 22,1–29,0 km",
+                      "road":  "P30",
+                      "direction":  "startToEnd",
+                      "directionDescription":  "Kilometru pieauguma virziens",
+                      "start":  {
+                                    "latitude":  57.232054,
+                                    "longitude":  25.571406
+                                },
+                      "end":  {
+                                  "latitude":  57.178098,
+                                  "longitude":  25.621522
+                              },
+                      "officialLengthMeters":  6900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  },
+                  {
+                      "id":  "lv-p30-22-1-29-reverse",
+                      "name":  "P30 22,1–29,0 km",
+                      "road":  "P30",
+                      "direction":  "endToStart",
+                      "directionDescription":  "Kilometru samazinājuma virziens",
+                      "start":  {
+                                    "latitude":  57.232054,
+                                    "longitude":  25.571406
+                                },
+                      "end":  {
+                                  "latitude":  57.178098,
+                                  "longitude":  25.621522
+                              },
+                      "officialLengthMeters":  6900,
+                      "speedLimitKmh":  90,
+                      "source":  {
+                                     "name":  "Valsts policija / LVC — vidējā ātruma kontroles posmi",
+                                     "url":  "https://vp.gov.lv/lv/celu-satiksme",
+                                     "license":  "Publiska informācija",
+                                     "retrievedAt":  "2026-11-14"
+                                 },
+                      "verification":  "verified",
+                      "lastVerified":  "2026-11-14",
+                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
+                  }
+              ]
+}

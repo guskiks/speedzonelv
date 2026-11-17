@@ -1,0 +1,74 @@
+name: Build unsigned IPA
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    # GitHub-hosted macOS runners are free for public repositories.
+    # They cannot sign with your free Apple ID; signing happens on Windows
+    # with Sideloadly/AltStore. See README.md.
+    # Xcode 16+ is required by the checked-in project (objectVersion 77).
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app
+
+      - name: Build unsigned app and widget extension
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project SpeedZoneLV.xcodeproj \
+            -scheme SpeedZoneLV \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            DEVELOPMENT_TEAM="" \
+            clean build | tee build.log
+
+      - name: Verify app bundle
+        run: |
+          test -d build/Build/Products/Release-iphoneos/SpeedZoneLV.app
+          test -d build/Build/Products/Release-iphoneos/SpeedZoneLV.app/PlugIns/SpeedZoneLVWidgets.appex
+          /usr/libexec/PlistBuddy -c 'Print :CFBundleIdentifier' \
+            build/Build/Products/Release-iphoneos/SpeedZoneLV.app/Info.plist
+          /usr/libexec/PlistBuddy -c 'Print :CFBundleIdentifier' \
+            build/Build/Products/Release-iphoneos/SpeedZoneLV.app/PlugIns/SpeedZoneLVWidgets.appex/Info.plist
+
+      - name: Package unsigned IPA
+        run: |
+          mkdir -p artifacts/Payload
+          cp -R build/Build/Products/Release-iphoneos/SpeedZoneLV.app artifacts/Payload/
+          cd artifacts
+          zip -qry SpeedZoneLV-unsigned.ipa Payload
+          ls -lh SpeedZoneLV-unsigned.ipa
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: SpeedZoneLV-unsigned-ipa
+          path: artifacts/SpeedZoneLV-unsigned.ipa
+          if-no-files-found: error
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: SpeedZoneLV-build-log
+          path: build.log
+          if-no-files-found: ignore
