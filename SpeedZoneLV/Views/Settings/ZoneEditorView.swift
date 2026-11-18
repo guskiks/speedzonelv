@@ -432,7 +432,9 @@ struct ZoneDraft {
             source: source,
             verification: isVerified ? .verified : .unverified,
             lastVerified: isVerified ? today : nil,
-            notes: notes.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? nil : notes
+            notes: notes.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? nil : notes,
+            entryAdjustmentMeters: nil,
+            exitAdjustmentMeters: nil
         )
     }
 
