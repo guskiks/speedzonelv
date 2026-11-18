@@ -462,11 +462,18 @@ struct SettingsView: View {
             .tint(Theme.mint)
 
             HStack(spacing: 10) {
-                if locationStatus != .authorizedAlways {
+                if locationStatus == .notDetermined {
                     Button {
                         app.dashboard.requestLocationPermission()
                     } label: {
                         Label("Atļaut atrašanās vietu", systemImage: "location.fill")
+                    }
+                    .buttonStyle(SecondaryButtonStyle())
+                } else if locationStatus == .authorizedWhenInUse {
+                    Button {
+                        app.dashboard.requestAlwaysPermission()
+                    } label: {
+                        Label("Mainīt uz “Vienmēr”", systemImage: "location.fill.viewfinder")
                     }
                     .buttonStyle(SecondaryButtonStyle())
                 }

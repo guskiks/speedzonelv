@@ -127,14 +127,29 @@ struct SpeedZoneLiveActivityWidget: Widget {
                     .font(.system(size: 12, weight: .bold))
                     .foregroundStyle(LiveColors.mint)
             } compactTrailing: {
-                Text(LiveFormat.speed(context.state.currentSpeedKmh))
-                    .font(.system(size: 14, weight: .bold, design: .rounded))
-                    .foregroundStyle(LiveColors.textPrimary)
-                    .monospacedDigit()
+                HStack(spacing: 4) {
+                    Text(LiveFormat.speed(context.state.currentSpeedKmh))
+                        .font(.system(size: 13, weight: .bold, design: .rounded))
+                        .foregroundStyle(LiveColors.textPrimary)
+                        .monospacedDigit()
+                    if context.state.phase == "active", let avg = context.state.averageSpeedKmh {
+                        Text("ø\(LiveFormat.speed(avg))")
+                            .font(.system(size: 10, weight: .semibold, design: .rounded))
+                            .foregroundStyle(LiveColors.mint)
+                            .monospacedDigit()
+                    }
+                }
             } minimal: {
-                Image(systemName: context.state.phase == "active" ? "speedometer" : "location.fill")
-                    .font(.system(size: 12, weight: .bold))
-                    .foregroundStyle(context.state.phase == "active" ? LiveColors.mint : LiveColors.ice)
+                if context.state.phase == "active", let avg = context.state.averageSpeedKmh {
+                    Text("ø\(LiveFormat.speed(avg))")
+                        .font(.system(size: 12, weight: .bold, design: .rounded))
+                        .foregroundStyle(LiveColors.mint)
+                        .monospacedDigit()
+                } else {
+                    Image(systemName: context.state.phase == "active" ? "speedometer" : "location.fill")
+                        .font(.system(size: 12, weight: .bold))
+                        .foregroundStyle(context.state.phase == "active" ? LiveColors.mint : LiveColors.ice)
+                }
             }
         }
     }

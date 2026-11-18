@@ -1,4 +1,4 @@
-{
+﻿{
     "schemaVersion":  1,
     "countryCode":  "LV",
     "updatedAt":  "2026-11-14",
@@ -42,8 +42,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a1-14-1-20-1-reverse",
                       "name":  "Siguļi–Lilaste",
@@ -68,8 +70,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a1-74-6-81-1-forward",
                       "name":  "Vitrupe–Svētciems",
@@ -94,8 +98,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a1-74-6-81-1-reverse",
                       "name":  "Vitrupe–Svētciems",
@@ -120,8 +126,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a2-54-5-62-3-forward",
                       "name":  "A2 54,5–62,3 km",
@@ -146,8 +154,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a2-54-5-62-3-reverse",
                       "name":  "A2 54,5–62,3 km",
@@ -172,8 +182,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a2-72-5-77-2-forward",
                       "name":  "A2 72,5–77,2 km",
@@ -198,8 +210,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a2-72-5-77-2-reverse",
                       "name":  "A2 72,5–77,2 km",
@@ -224,8 +238,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a2-94-8-125-7-forward",
                       "name":  "A2 94,8–125,7 km",
@@ -250,8 +266,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a2-94-8-125-7-reverse",
                       "name":  "A2 94,8–125,7 km",
@@ -276,8 +294,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a3-40-1-55-6-forward",
                       "name":  "Stalbe–Rubene",
@@ -302,8 +322,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a3-40-1-55-6-reverse",
                       "name":  "Stalbe–Rubene",
@@ -328,8 +350,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a4-10-1-13-9-forward",
                       "name":  "A4 10,1–13,9 km",
@@ -354,8 +378,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a4-10-1-13-9-reverse",
                       "name":  "A4 10,1–13,9 km",
@@ -380,8 +406,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a4-14-5-19-9-forward",
                       "name":  "A4 14,5–19,9 km",
@@ -406,8 +434,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a4-14-5-19-9-reverse",
                       "name":  "A4 14,5–19,9 km",
@@ -432,8 +462,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a5-14-2-20-1-forward",
                       "name":  "A5 14,2–20,1 km",
@@ -458,8 +490,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a5-14-2-20-1-reverse",
                       "name":  "A5 14,2–20,1 km",
@@ -484,8 +518,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a5-23-1-28-6-forward",
                       "name":  "A5 23,1–28,6 km",
@@ -510,8 +546,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a5-23-1-28-6-reverse",
                       "name":  "A5 23,1–28,6 km",
@@ -536,8 +574,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a6-66-1-77-forward",
                       "name":  "A6 66,1–77,0 km",
@@ -562,8 +602,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a6-66-1-77-reverse",
                       "name":  "A6 66,1–77,0 km",
@@ -588,8 +630,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a6-102-4-116-forward",
                       "name":  "A6 102,4–116,0 km",
@@ -614,8 +658,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a6-102-4-116-reverse",
                       "name":  "A6 102,4–116,0 km",
@@ -640,8 +686,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a6-150-2-159-7-forward",
                       "name":  "A6 150,2–159,7 km",
@@ -666,8 +714,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a6-150-2-159-7-reverse",
                       "name":  "A6 150,2–159,7 km",
@@ -692,8 +742,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a6-133-5-139-2-forward",
                       "name":  "A6 133,5–139,2 km",
@@ -718,8 +770,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a6-133-5-139-2-reverse",
                       "name":  "A6 133,5–139,2 km",
@@ -744,8 +798,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a7-25-3-40-forward",
                       "name":  "A7 25,3–40,0 km",
@@ -770,8 +826,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a7-25-3-40-reverse",
                       "name":  "A7 25,3–40,0 km",
@@ -796,8 +854,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a8-50-69-2-forward",
                       "name":  "A8 50,0–69,2 km",
@@ -822,8 +882,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a8-50-69-2-reverse",
                       "name":  "A8 50,0–69,2 km",
@@ -848,8 +910,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-9-9-23-1-forward",
                       "name":  "A9 9,9–23,1 km",
@@ -874,8 +938,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-9-9-23-1-reverse",
                       "name":  "A9 9,9–23,1 km",
@@ -900,8 +966,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-26-1-38-forward",
                       "name":  "A9 26,1–38,0 km",
@@ -926,8 +994,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-26-1-38-reverse",
                       "name":  "A9 26,1–38,0 km",
@@ -952,8 +1022,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-39-1-56-7-forward",
                       "name":  "Apšupe–Tiltiņi",
@@ -978,8 +1050,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-39-1-56-7-reverse",
                       "name":  "Apšupe–Tiltiņi",
@@ -1004,8 +1078,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-80-93-6-forward",
                       "name":  "A9 80,0–93,6 km",
@@ -1030,8 +1106,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-80-93-6-reverse",
                       "name":  "A9 80,0–93,6 km",
@@ -1056,8 +1134,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-157-3-169-7-forward",
                       "name":  "A9 157,3–169,7 km",
@@ -1082,8 +1162,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a9-157-3-169-7-reverse",
                       "name":  "A9 157,3–169,7 km",
@@ -1108,8 +1190,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a10-24-1-30-8-forward",
                       "name":  "A10 24,1–30,8 km",
@@ -1134,8 +1218,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a10-24-1-30-8-reverse",
                       "name":  "A10 24,1–30,8 km",
@@ -1160,8 +1246,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a10-44-9-52-4-forward",
                       "name":  "A10 44,9–52,4 km",
@@ -1186,8 +1274,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a10-44-9-52-4-reverse",
                       "name":  "A10 44,9–52,4 km",
@@ -1212,8 +1302,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a10-63-4-68-forward",
                       "name":  "Tukuma rotācijas apļi",
@@ -1238,8 +1330,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a10-63-4-68-reverse",
                       "name":  "Tukuma rotācijas apļi",
@@ -1264,8 +1358,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a10-135-140-8-forward",
                       "name":  "A10 135,0–140,8 km",
@@ -1290,8 +1386,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a10-135-140-8-reverse",
                       "name":  "A10 135,0–140,8 km",
@@ -1316,8 +1414,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a12-61-4-69-forward",
                       "name":  "A12 61,4–69,0 km",
@@ -1342,8 +1442,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a12-61-4-69-reverse",
                       "name":  "A12 61,4–69,0 km",
@@ -1368,8 +1470,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a12-106-3-108-1-forward",
                       "name":  "A12 106,3–108,1 km",
@@ -1394,8 +1498,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a12-106-3-108-1-reverse",
                       "name":  "A12 106,3–108,1 km",
@@ -1420,8 +1526,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a13-81-8-88-5-forward",
                       "name":  "A13 81,8–88,5 km",
@@ -1446,8 +1554,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-a13-81-8-88-5-reverse",
                       "name":  "A13 81,8–88,5 km",
@@ -1472,8 +1582,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-p80-0-5-1-8-forward",
                       "name":  "Tīnūži–Ziediņi",
@@ -1498,8 +1610,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-p80-0-5-1-8-reverse",
                       "name":  "Tīnūži–Ziediņi",
@@ -1524,8 +1638,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-p80-40-9-60-1-forward",
                       "name":  "P80 40,9–60,1 km",
@@ -1550,8 +1666,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-p80-40-9-60-1-reverse",
                       "name":  "P80 40,9–60,1 km",
@@ -1576,8 +1694,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-p30-22-1-29-forward",
                       "name":  "P30 22,1–29,0 km",
@@ -1602,8 +1722,10 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  },
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   },
                   {
                       "id":  "lv-p30-22-1-29-reverse",
                       "name":  "P30 22,1–29,0 km",
@@ -1628,7 +1750,11 @@
                                  },
                       "verification":  "verified",
                       "lastVerified":  "2026-11-14",
-                      "notes":  "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt."
-                  }
+                      "notes": "Robežas balstītas uz oficiālo km diapazonu. Koordinātas interpolētas no LVC piketāžas servisa; lietotnē tās var rediģēt.",
+                       "entryAdjustmentMeters": -100,
+                       "exitAdjustmentMeters": -100
+                   }
               ]
 }
+
+

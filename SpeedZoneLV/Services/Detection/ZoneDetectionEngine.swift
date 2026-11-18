@@ -176,8 +176,8 @@ enum ZoneDetectionEngine {
     }
 
     static func candidate(zone: SpeedZone, fix: GPSFix, previous: GPSFix?) -> ZoneCandidate? {
-        let entry = zone.entry
-        let exit = zone.exit
+        let entry = zone.effectiveEntry
+        let exit = zone.effectiveExit
         let axisLength = entry.distance(to: exit)
         // Remove arbitrary 40m minimum - use official length instead
         guard axisLength > 1 else { 
@@ -235,8 +235,8 @@ enum ZoneDetectionEngine {
     ) -> Date? {
         guard candidate.headingMatches else { return nil }
 
-        let entry = candidate.zone.entry
-        let exit = candidate.zone.exit
+        let entry = candidate.zone.effectiveEntry
+        let exit = candidate.zone.effectiveExit
         let previousProjection = GeoMath.projection(of: previous.coordinate, entry: entry, exit: exit)
         let currentProjection = GeoMath.projection(of: current.coordinate, entry: entry, exit: exit)
 

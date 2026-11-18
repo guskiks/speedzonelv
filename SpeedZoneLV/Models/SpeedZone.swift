@@ -57,6 +57,13 @@ struct SpeedZone: Identifiable, Codable, Hashable, Sendable {
     let lastVerified: String?
     let notes: String?
 
+    /// Optional adjustment to shift the effective entry/exit detection points.
+    /// Positive = shift detection forward along the road (later entry/exit).
+    /// Negative = shift detection backward (earlier entry/exit).
+    /// Default 0. Typical values: -100 to +100 meters based on real-world calibration.
+    let entryAdjustmentMeters: Double?
+    let exitAdjustmentMeters: Double?
+
     var entry: Coordinate {
         direction == .startToEnd ? start : end
     }
@@ -65,7 +72,23 @@ struct SpeedZone: Identifiable, Codable, Hashable, Sendable {
         direction == .startToEnd ? end : start
     }
 
-    var lengthKilometers: Double {
+    /// Effective entry coordinate with adjustment applied.
+    var effectiveEntry: Coordinate {
+        adjustCoordinate(entry, towards: exit, by: entryAdjustmentMeters ?? 0)
+    }
+
+    /// Effective exit coordinate with adjustment applied.
+    var effectiveExit: Coordinate {
+        adjustCoordinate(exit, towards: entry, by: exitAdjustmentMeters ?? 0)
+    }
+
+    private func adjustCoordinate(_ from: Coordinate, towards: Coordinate, by meters: Double) -> Coordinate {
+        guard meters != 0 else { return from }
+        let bearing = GeoMath.bearing(from: from, to: towards)
+        return GeoMath.offset(from: from, bearingDegrees: bearing, distanceMeters: meters)
+    }
+
+var lengthKilometers: Double {
         officialLengthMeters / 1_000
     }
 
@@ -81,7 +104,7 @@ struct SpeedZone: Identifiable, Codable, Hashable, Sendable {
         road == "TEST"
     }
 
-    /// A clearly labelled synthetic zone used only by the interactive demo.
+    /// Creates an explicitly labelled synthetic zone used only by the interactive demo.
     /// The coordinates intentionally do not describe a real enforcement site.
     static let demo = SpeedZone(
         id: "demo-LV-001",
@@ -101,7 +124,9 @@ struct SpeedZone: Identifiable, Codable, Hashable, Sendable {
         ),
         verification: .demo,
         lastVerified: nil,
-        notes: "Nav reāla vidējā ātruma kontroles zona. Koordinātas nav saistītas ar konkrētu ceļu."
+        notes: "Nav reāla vidējā ātruma kontroles zona. Koordinātas nav saistītas ar konkrētu ceļu.",
+        entryAdjustmentMeters: nil,
+        exitAdjustmentMeters: nil
     )
 
     /// Creates an explicitly labelled 1 km test corridor from the driver's
@@ -129,7 +154,9 @@ struct SpeedZone: Identifiable, Codable, Hashable, Sendable {
             ),
             verification: .demo,
             lastVerified: nil,
-            notes: "Nav oficiāla zona. Tests sākas tavā pašreizējā pozīcijā un beidzas pēc 1 km. Izmanto tikai funkciju pārbaudei."
+            notes: "Nav oficiāla zona. Tests sākas tavā pašreizējā pozīcijā un beidzas pēc 1 km. Izmanto tikai funkciju pārbaudei.",
+            entryAdjustmentMeters: nil,
+            exitAdjustmentMeters: nil
         )
     }
 }
