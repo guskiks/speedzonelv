@@ -197,7 +197,7 @@ final class DashboardViewModel {
 
         isLiveTracking = true
         location.setBackgroundUpdatesEnabled(settings.backgroundTrackingEnabled)
-        location.setHighAccuracyMode(false)
+        location.setHighAccuracyMode(true)
         location.startTracking()
         UIApplication.shared.isIdleTimerDisabled = settings.keepScreenAwakeDuringRide
     }
@@ -245,6 +245,7 @@ final class DashboardViewModel {
         isLiveTracking = true
 
         location.setBackgroundUpdatesEnabled(settings.backgroundTrackingEnabled)
+        location.setHighAccuracyMode(true)
         location.startTracking()
         UIApplication.shared.isIdleTimerDisabled = settings.keepScreenAwakeDuringRide
 
